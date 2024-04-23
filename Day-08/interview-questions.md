@@ -73,6 +73,10 @@ Suitable for generic TCP/UDP load balancing without application-specific feature
 - Web servers within the web subnet process incoming requests
 
 ### Describe the purpose of Azure Bastion and when it is used for secure remote access to virtual machines.
+
+Azure Bastion provides secure RDP and SSH access to Azure VMs directly from the Azure Portal, eliminating the need for public IP addresses or VPNs. It enhances security and simplifies remote access.
+<br>
+Key Advantages are: 
 - Secure Remote Access:
 - Elimination of Public Internet Exposure:
 - Reduced Attack Surface:
@@ -82,7 +86,3 @@ Suitable for generic TCP/UDP load balancing without application-specific feature
 - Role-Based Access Control (RBAC):
 - Multi-Factor Authentication (MFA):
 - Audit and Monitoring:
-
-
-
-
