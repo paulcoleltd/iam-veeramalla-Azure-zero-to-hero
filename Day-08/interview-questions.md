@@ -2,7 +2,7 @@
 
 ### What is the difference between NSG and ASG ?
 NSGs define rules for controlling traffic within a virtual network and between subnets based on IP addresses and port numbers. ASGs are associated with application groups and simplify security management by grouping VMs based on their application roles. In real-world scenarios, NSGs and ASGs are combined to enhance network security.<br><br>
-For example, NSGs control traffic between subnets, while ASGs apply specific security rules to groups of VMs within those subnets. ASGs are applied to VMs and used alongside NSGs. By associating an ASG tag with a network security rule, you can define rules that apply to a group of VMs sharing the same tag. This simplifies security policy management for multi-tier applications.
+For example, you can use NSGs to control traffic between subnets and then use ASGs to apply specific security rules to groups of VMs within those subnets based on their application roles. ASGs are applied to VMs and used alongside NSGs. By associating an ASG tag with a network security rule, you can define rules that apply to a group of VMs sharing the same tag. This simplifies security policy management for multi-tier applications.
 
 
 ### How can you block the access to a your vm from a subnet ?
