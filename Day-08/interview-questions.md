@@ -6,13 +6,15 @@ For example, you can use NSGs to control traffic between subnets and then use AS
 
 
 ### How can you block the access to a your vm from a subnet ?
-By default traffic is allowed between subnets with in the VNet in Azure. This is because of a default NSG rule “AllowVnetInBound”. 
-
-The priority of this rule is 65000, so we need to create a Deny rule with less than 65000 priority number.
+The traffic between subnets within the same Virtual Network (VNet) is allowed by default due to a default NSG rule i.e., "AllowVnetInBound." This rule has a priority of 65000. To block traffic between specific subnets, we need to create a custom Deny rule with a priority number lower than 65000. 
+<br><br>
+By doing so, this rule will be processed before the default "AllowVnetInBound" rule, effectively blocking traffic between the specified subnets. 
 
 ### Are Azure NSGs stateful or stateless ?
-They are stateful in nature. That means if you allow a port for inbound traffic traffic to receive the request. You don’t have to open the port in outbound rules to send response back.
-
+Stateful security refers to the ability of a firewall or security system to track the state of active connections and make decisions based on the context of those connections, while in stateless security, no information about the state of connections is maintained. Each packet is evaluated independently based solely on the rules defined in the security policy.
+<br><br>
+NSGs in Azure operate in a stateful manner. When you define an NSG rule to allow traffic from a specific source to a destination, the NSG automatically tracks the state of connections and permits return traffic related to established connections without the need for explicit rules.
+<br><br>
 Example: If you host a host an application on port 80 in azure vm and allow inbound traffic for customers to access it. You don’t need to open port 80 in outbound traffic to send response back to the customer.
 
 ### What is the difference between Azure Firewall and NSG ?
