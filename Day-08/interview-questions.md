@@ -25,13 +25,13 @@ NSG:
 Typically associated with subnets or individual network interfaces to control traffic within a VNet and between VNets.
 
 ### What are the advantages of resource groups in azure ?
-- Logical Organization
-- Lifecycle Management
-- Resource Group Tagging
-- Role-Based Access Control (RBAC)
-- Cost Management
-- Resource Group Templates (Azure Resource Manager Templates)
-- Resource Locks
+- **Logical Organization:** Resource groups provide a way to logically organize and group related Azure resources together that are associated with a particular application, project, or environment.
+- **Lifecycle Management:** You can manage the lifecycle of all resources within a resource group together, including deployment, updating, and deletion.
+- **Resource Group Tagging:** Tags provide additional context and organization for resources, making it easier to categorize, track, and manage them based on specific attributes or criteria.
+- **Role-Based Access Control (RBAC):** It allows you to control access to all resources within a group based on roles and permissions.
+- **Cost Management:** You can view and track the costs associated with resources within a resource group, making it easier to monitor and optimize your Azure spending.
+- **Resource Group Templates (Azure Resource Manager Templates):** Azure Resource Manager (ARM) templates allow you to define and deploy resource groups and their associated resources in a declarative manner.
+- **Resource Locks:** By applying locks at the resource group level, you can protect critical resources from unintended changes, ensuring their availability and integrity.
 
 ### What is the difference between Azure User Data and Custom Data ?
 User data is a new version of custom data and it offers added benefits. User data persists and lives in the cloud, accessible and updatable anytime. Custom data vanishes after first boot, accessible only during VM creation.
