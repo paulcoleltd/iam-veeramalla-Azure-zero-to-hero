@@ -72,7 +72,7 @@ Suitable for generic TCP/UDP load balancing without application-specific feature
 #### Application Servers:
 - Web servers within the web subnet process incoming requests
 
-#### Describe the purpose of Azure Bastion and when it is used for secure remote access to virtual machines.
+### Describe the purpose of Azure Bastion and when it is used for secure remote access to virtual machines.
 - Secure Remote Access:
 - Elimination of Public Internet Exposure:
 - Reduced Attack Surface:
