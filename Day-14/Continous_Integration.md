@@ -26,7 +26,7 @@ The CI pipeline may also include static code analysis tools to analyze the code 
 
 The results of the build, tests, and analysis are reported back to the development team. This includes information on build success/failure, test results, code coverage, and any issues identified during the process.
 
-#### Artifact Generation: 
+### Artifact Generation: 
 
 If the build and tests pass successfully, the CI pipeline generates artifacts (e.g., executable binaries, Docker images) that can be deployed to various environments.
 
