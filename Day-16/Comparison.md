@@ -1,4 +1,4 @@
-## On-Premises Kubernetes Cluster v/s On-Premises Kubernetes Cluster v/s Azure Managed Kubernetes Cluster
+## On-Premises Kubernetes Cluster v/s Virtual Machine Kubernetes Cluster v/s Azure Managed Kubernetes Cluster
 
 1. **Maintenance**:
    - **On-Premises Kubernetes Cluster**: Requires significant maintenance effort, including hardware procurement, setup, configuration, and ongoing management of the Kubernetes infrastructure, including updates and patches. <br>
