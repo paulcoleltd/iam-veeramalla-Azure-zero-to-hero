@@ -16,12 +16,9 @@
    - **Azure Managed Kubernetes Cluster**: Pay-as-you-go model, with costs based on usage. While Azure Managed Kubernetes may have higher operational costs compared to Virtual Machine clusters, it often provides better cost predictability and scalability. Additionally, you can take advantage of reserved instances or spot instances to optimize costs further.
    <br>
 3. **Scalability & Availability**:
-   - **On-Premises Kubernetes Cluster**: Scalability and availability are limited by the hardware resources available on-premises. Scaling requires additional hardware procurement and setup, which can be time-consuming.
-   <br>
-   - **Virtual Machine Kubernetes Cluster**: Offers better scalability compared to On-Premises, as virtualization allows for more flexible resource allocation. Availability depends on the underlying virtualization platform and infrastructure.
-   <br>
-   - **Azure Managed Kubernetes Cluster**: Highly scalable and available, with the ability to dynamically scale resources up or down based on demand. Azure provides built-in features such as auto-scaling, load balancing, and automated failover to ensure high availability of your applications.
-   <br>
+   - **On-Premises Kubernetes Cluster**: Scalability and availability are limited by the hardware resources available on-premises. Scaling requires additional hardware procurement and setup, which can be time-consuming. <br>
+   - **Virtual Machine Kubernetes Cluster**: Offers better scalability compared to On-Premises, as virtualization allows for more flexible resource allocation. Availability depends on the underlying virtualization platform and infrastructure. <br>
+   - **Azure Managed Kubernetes Cluster**: Highly scalable and available, with the ability to dynamically scale resources up or down based on demand. Azure provides built-in features such as auto-scaling, load balancing, and automated failover to ensure high availability of your applications. <br>
 
 4. **Integration**:
    - **On-Premises Kubernetes Cluster**: Integration with existing on-premises infrastructure and services may require custom configuration and integration efforts. Limited integration with cloud services.
