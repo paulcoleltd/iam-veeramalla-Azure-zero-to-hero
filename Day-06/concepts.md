@@ -20,6 +20,16 @@ Azure Load Balancer distributes incoming network traffic across multiple servers
 
 - **Inbound and Outbound Traffic**: Balances both inbound and outbound traffic.
 
+- **Two main types of Load Balancer discussed:**
+1. **L7 Load Balancer or App Gateway:** Directs the traffic based on Application layer content of the OSI Model such as http or https.
+     Also called as http routing as it routes the traffic based on attributes like URL Path, Host readers etc.
+     
+  - Ideal for web applications and microservices architectures where routing decisions need to be made based on application-specific content.
+    
+2. **L4 Load Balancer or Azure Load Balancer:** It distributes the incoming network traffic across multiple instances or virtual machines based on the source and destination IP address, port no.s, etc.
+ 
+  - Ideal for TCP or UDP-based application or services that requires high availability and scalability, such as web servers, database servers, etc.
+
 ## Azure DNS
 
 Azure DNS is a scalable and secure domain hosting service. It provides name resolution using the Microsoft Azure infrastructure. Key features include:
