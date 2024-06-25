@@ -42,5 +42,5 @@ kubectl exec busybox-secrets-store-inline-wi -- ls /mnt/secrets-store/
 ### Verify the contents in the file
 
 ```
-kubectl exec busybox-secrets-store-inline -- cat /mnt/secrets-store/foo-secret
+kubectl exec busybox-secrets-store-inline-wi -- cat /mnt/secrets-store/foo-secret
 ```
